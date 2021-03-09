@@ -9,8 +9,8 @@ class Test_FizzBuzz(unittest.TestCase):
         return
 
     def test_fives(self):
-        self.assertEqual(FizzBuzz.FizzBuzz(5),"Fizz")
-        self.assertEqual(FizzBuzz.FizzBuzz(10),"Fizz")
+        self.assertEqual(FizzBuzz.FizzBuzz(5),"Buzz")
+        self.assertEqual(FizzBuzz.FizzBuzz(10),"Buzz")
         self.assertNotEqual(FizzBuzz.FizzBuzz(4),"Buzz")
 
 if __name__ == "__main__":

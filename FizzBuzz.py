@@ -3,5 +3,5 @@ def FizzBuzz(number):
     if number%3 ==0:
         text+="Fizz"
     if number%5 ==0:
-        return "Buzz"
+        text+="Buzz"
     return text

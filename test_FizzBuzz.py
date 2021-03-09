@@ -8,5 +8,10 @@ class Test_FizzBuzz(unittest.TestCase):
         self.assertNotEqual(FizzBuzz.FizzBuzz(5),"Fizz")
         return
 
+    def test_fives(self):
+        self.assertEqual(FizzBuzz.FizzBuzz(5),"Fizz")
+        self.assertEqual(FizzBuzz.FizzBuzz(10),"Fizz")
+        self.assertNotEqual(FizzBuzz.FizzBuzz(4),"Buzz")
+
 if __name__ == "__main__":
     unittest.main()
